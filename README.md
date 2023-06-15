@@ -1,0 +1,1 @@
+This is a readme which contains a description of alx tasks of c. 

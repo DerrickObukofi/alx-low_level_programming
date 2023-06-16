@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<stdlib.h>
+/**
+* main - Prints lowercase and uppercase letters
+* Description:This program uses two loops to print the lowercase letters ('a' to 'z')
+* followed by the uppercase letters ('A' to 'Z'). The letters are output
+* using the putchar function. After printing all the letters, the program
+* prints a newline character to move to the next line.
+*
+* Return: 0 (Success)
+*/
+int main (void)
+{
+char letter;
+for (letter = 'a'; letter <= 'z';letter++)
+{
+putchar(letter);
+}
+for (letter = 'A'; letter <= 'Z';letter++)
+{
+putchar(letter);
+}
+putchar('\n');
+return (0);
+}

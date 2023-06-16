@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-* Main - Prints description of a random number
+* Main - Prints the description of a random number
 * Description : Program generates a random number
-* Return : Always 0 (Success)
+* Return : 0 (Success)
 */
 int main(void)
 {
@@ -19,7 +19,7 @@ else if (n == 0)
 {
 printf("%d is zero \n", n);
 }
-else
+else if (n < 0)
 {
 printf("%d is negative \n", n);
 }
